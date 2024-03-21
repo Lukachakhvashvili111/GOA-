@@ -1,0 +1,7 @@
+name=input("what is your name ? ")
+surname = input("what is your surname ?")
+print("what a nice name and surname")
+age=input("how old are you luka")
+print("your as old as my little brother,maybe you 2 can meet")
+location=input('can you tell me where you live so my brother and you can have a sleepover')
+print('okay so im gonna drop him off at yuor house tommorow')
