@@ -1,0 +1,2 @@
+dog = ['JINA','LORDY','MAX','ROCKY','SIMBA']
+print('my name is luka, i  have a dog named '+ dog[0] + ', i have an another dog ' + dog[1] + ' i have 3 more dogs' + dog[2] + dog[3] + dog[4] + 'i love them all equaly :D')
