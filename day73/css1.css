@@ -1,0 +1,10 @@
+#f:hover{
+      color: green;
+}
+#s:hover{
+text-decoration: none;
+}
+#t:hover{
+      color: red;
+      text-decoration: overline
+}
