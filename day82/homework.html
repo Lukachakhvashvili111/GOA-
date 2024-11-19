@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Sign Up</title>
+    <link rel="stylesheet" href="/day82/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world around you.</p>
+        </div>
+        <div class="signup-form">
+            <h2>Create an account</h2>
+            <p>It’s quick and easy.</p>
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last name" required>
+                </div>
+                <input type="email" placeholder="Mobile number or email" required>
+                <input type="password" placeholder="New password" required>
+                <div class="input-group">
+                    <label for="birthdate">Birthday</label>
+                    <input type="date" id="birthdate" required>
+                </div>
+                <div class="input-group">
+                    <label>Gender</label>
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="custom"> Custom</label>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>By clicking Sign Up, you agree to our Terms and Data Policy.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+  }
+  
+  /* Header and navigation */
+  header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  header h1 {
+      margin-bottom: 10px;
+  }
+  
+  nav ul {
+      list-style-type: none;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 10px;
+  }
+  
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  /* Section styles */
+  section {
+      padding: 20px;
+      margin: 20px;
+      background: #fff;
+      border-radius: 5px;
+  }
+  
+  #about, #contact {
+      max-width: 600px;
+      margin: auto;
+  }
+  
+  /* Gallery styles */
+  .gallery {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  .gallery img {
+      width: 200px;
+      height: 130px;
+      border-radius: 5px;
+      object-fit: cover;
+  }
+  
+  /* Footer styles */
+  footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+  }

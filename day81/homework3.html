@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model მაგალითი</title>
+    <style>
+        /* სტილები div ელემენტისთვის */
+        .box {
+            width: 300px;          /* ელემენტის სიგანე */
+            height: 200px;         /* ელემენტის სიმაღლე */
+            background-color: lightblue;  /* ფონური ფერი */
+            padding: 20px;         /* შიგნითა სივრცე */
+            border: 5px solid #333; /* საზღვარი */
+            margin: 30px;          /* გარე სივრცე */
+            box-sizing: border-box; /* Border და padding ითვლება მთლიან ზომაში */
+        }
+
+        /* კონტენტის სტილი */
+        .box p {
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <p>ეს არის div ელემენტი, რომელიც მუშაობს margin, border და padding-ზე!</p>
+    </div>
+
+</body>
+</html>
