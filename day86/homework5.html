@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Right Positioning</title>
+  <style>
+    /* კონტეინერის სტილი */
+    .container {
+      position: relative; /* ქმნის რეფერენციულ ჩარჩოს შვილებისთვის */
+      width: 500px;
+      height: 300px;
+      border: 2px solid black; /* კონტეინერის საზღვარი */
+      margin: 50px auto; /* ცენტრში განლაგება ჰორიზონტალურად */
+    }
+
+    /* ელემენტის სტილი */
+    .item {
+      position: absolute; /* ფიქსირდება კონტეინერის შიგნით */
+      top: 0; /* ზედა კუთხესთან მოთავსება */
+      right: 0; /* მარჯვენა კუთხესთან მოთავსება */
+      background-color: lightcoral;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 4px; /* ელემენტის კუთხეების მომრგვალება */
+    }
+  </style>
+</head>
+<body>
+  <!-- კონტეინერი -->
+  <div class="container">
+    <!-- ელემენტი -->
+    <div class="item">Top Right</div>
+  </div>
+</body>
+</html>

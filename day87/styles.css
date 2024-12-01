@@ -1,0 +1,26 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('your-image.jpg') no-repeat center center; /* Image URL */
+    background-size: cover; /* Ensures the image covers the screen */
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Content Styles */
+.content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    padding: 20px;
+    border-radius: 10px;
+}

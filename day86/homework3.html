@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Center Block</title>
+  <style>
+    /* კონტეინერის სტილი */
+    body {
+      margin: 0;
+      display: flex; /* Flexbox-ის გამოყენება */
+      justify-content: center; /* ჰორიზონტალური ცენტრირება */
+      align-items: center; /* ვერტიკალური ცენტრირება */
+      height: 100vh; /* ფანჯრის სრული სიმაღლე */
+      background-color: #f4f4f4; /* კონტეინერის ფონის ფერი */
+    }
+
+    /* ცენტრში განთავსებული ბლოკის სტილი */
+    .center-block {
+      position: relative; /* საჭიროებისამებრ შეიძლება შეიცვალოს */
+      width: 300px;
+      height: 200px;
+      background-color: lightcoral; /* ბლოკის ფონის ფერი */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ჩრდილი */
+      display: flex;
+      justify-content: center; /* ბლოკის შიგთავსის ჰორიზონტალური ცენტრირება */
+      align-items: center; /* ბლოკის შიგთავსის ვერტიკალური ცენტრირება */
+      color: white;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-block">
+    Centered Block
+  </div>
+</body>
+</html>

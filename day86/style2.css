@@ -1,0 +1,8 @@
+.element {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    box-sizing: content-box; /* ნაგულისხმევი ქცევა */
+  }
+  

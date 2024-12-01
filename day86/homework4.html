@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook-like Fixed Navigation Menu</title>
+  <style>
+    /* მთლიანი გვერდის სტილი */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* ნავიგაციის სტილი */
+    .navbar {
+      position: fixed; /* ფიქსირებული პოზიცია */
+      top: 0;
+      left: 0;
+      width: 100%; /* მენიუს სიგანე */
+      background-color: #4267B2; /* Facebook-ის მსგავსი ფონი */
+      color: white;
+      padding: 10px 20px; /* შიდა შუალედი */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ჩრდილი */
+      z-index: 1000; /* სხვა ელემენტებზე უპირატესობა */
+    }
+
+    /* მენიუს ელემენტები */
+    .navbar ul {
+      list-style: none; /* წერტილები ან ნომრები არ ჩანს */
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-between; /* ელემენტების გამოტანა */
+      align-items: center;
+    }
+
+    .navbar ul li {
+      display: inline; /* ელემენტები ჰორიზონტალურად */
+    }
+
+    .navbar ul li a {
+      color: white; /* ტექსტის ფერი */
+      text-decoration: none; /* ხაზის ამოღება */
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+
+    .navbar ul li a:hover {
+      background-color: #365899; /* hover ეფექტი */
+      border-radius: 4px; /* ელემენტების მოღუნული კუთხეები */
+    }
+
+    /* კონტენტის სტილი */
+    .content {
+      padding: 100px 20px; /* ზედა შუალედი ნავბარისთვის */
+    }
+
+    .content p {
+      margin-bottom: 20px; /* ტექსტებს შორის შუალედი */
+    }
+  </style>
+</head>
+<body>
+  <!-- ნავიგაცია -->
+  <div class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Messages</a></li>
+      <li><a href="#">Notifications</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </div>
+
+  <!-- ძირითადი კონტენტი -->
+  <div class="content">
+    <h1>Welcome to the Facebook-like Menu Clone</h1>
+    <p>Scroll down to see the fixed navigation menu in action.</p>
+    <p>Scroll more to see the menu staying fixed!</p>
+    <p>More dummy content here...</p>
+    <p>And even more content...</p>
+  </div>
+</body>
+</html>

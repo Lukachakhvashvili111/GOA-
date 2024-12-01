@@ -1,0 +1,7 @@
+.container {
+    display: flex; /* ჩართავს Flexbox რეჟიმს */
+    justify-content: center; /* ჰორიზონტალურად ცენტრირება */
+    align-items: center; /* ვერტიკალურად ცენტრირება */
+    height: 100vh; /* კონტეინერის სიმაღლე აიღებს 100% ეკრანის სიმაღლეს */
+    background-color: lightgray; /* კონტეინერის ფონური ფერი */
+}

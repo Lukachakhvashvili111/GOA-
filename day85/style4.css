@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row; /* ელემენტები განლაგდება რიგში */
+    justify-content: flex-start; /* იწყება "flex-start"-ით */
+    gap: 20px; /* შორის 20px დაშორება */
+    height: 200px; /* კონტეინერის სიმაღლე */
+    border: 2px solid black; /* კონტეინერის საზღვარი */
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* პირველი პოტენციური განლაგება: flex-start */
+.container.flex-start {
+    justify-content: flex-start;
+}
+
+/* მეორე პოტენციური განლაგება: flex-end */
+.container.flex-end {
+    justify-content: flex-end;
+}
+
+/* მესამე პოტენციური განლაგება: center */
+.container.center {
+    justify-content: center;
+}
+
+/* მეოთხე პოტენციური განლაგება: space-between */
+.container.space-between {
+    justify-content: space-between;
+}
